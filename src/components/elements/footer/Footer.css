@@ -1,0 +1,129 @@
+.footer-section {
+    background: #282828;
+    padding-top: 60px;
+}
+
+.footer-logo {
+    padding-bottom: 60px;
+}
+
+.footer-widget {
+    margin-bottom: 70px;
+    overflow: hidden;
+}
+
+.footer-widget h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 45px;
+}
+
+.footer-widget p {
+    color: #8f8f8f;
+}
+
+.footer-widget.about-widget p {
+    margin-bottom: 50px;
+    letter-spacing: -0.01em;
+}
+
+.footer-widget ul {
+    list-style: none;
+    float: left;
+    margin-right: 37px;
+}
+
+.footer-widget ul:last-child {
+    margin-right: 0;
+}
+
+.footer-widget ul li a {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #8f8f8f;
+    margin-bottom: 6px;
+}
+
+.footer-widget ul li a:after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    left: 0;
+    top: 8px;
+    border: 1px solid #ec105a;
+    border-radius: 50%;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.footer-widget ul li a:hover {
+    color: #fff;
+}
+
+.footer-widget ul li a:hover:after {
+    width: 7px;
+    height: 7px;
+    top: 6px;
+    background: #ec105a;
+}
+
+.fw-latest-post-widget .lp-item {
+    margin-bottom: 30px;
+    display: block;
+    overflow: hidden;
+}
+
+.fw-latest-post-widget .lp-thumb {
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 22px;
+}
+
+.fw-latest-post-widget .lp-content {
+    overflow: hidden;
+    padding-top: 2px;
+}
+
+.fw-latest-post-widget .lp-content h6 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.25;
+    color: #717171;
+    margin-bottom: 1px;
+}
+
+.fw-latest-post-widget .lp-content span {
+    display: block;
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-bottom: 4px;
+}
+
+.fw-latest-post-widget .lp-content .readmore {
+    font-size: 12px;
+    color: #f51167;
+}
+
+.contact-widget .con-info span {
+    float: left;
+    color: #f51167;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.social-links-warp {
+    border-top: 2px solid #3b3535;
+    padding: 46px 0;
+}
+
+.flaticon-profile:before {
+    content: "\f13b";
+}
